@@ -1,3 +1,7 @@
+"use client"
+
+import { useRouter } from "next/navigation"
+
 import { Button } from "@/components/ui/button"
 
 interface Product {
@@ -10,6 +14,8 @@ interface Product {
 }
 
 export function ProductCard({ product }: { product: Product }) {
+  const router = useRouter()
+
   return (
     <div className="bg-pink-50 rounded-lg overflow-hidden group">
       {/* Product Image */}
@@ -37,7 +43,12 @@ export function ProductCard({ product }: { product: Product }) {
           )}
           <span className="text-lg font-medium text-primary">KSh{product.price.toLocaleString()}</span>
         </div>
-        <Button className="w-full bg-pink-100 text-primary border border-primary hover:bg-pink-200" variant="outline">
+        <Button
+          className="w-full bg-pink-100 text-primary border border-primary hover:bg-pink-200"
+          variant="outline"
+          onClick={() => router.push("/coming-soon")}
+          type="button"
+        >
           Add to cart
         </Button>
       </div>
