@@ -349,6 +349,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website
 ;
 ;
 function Footer() {
+    const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254714666190";
+    const whatsappHref = `https://wa.me/${whatsappNumber}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "bg-pink-50 border-t border-pink-200",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -362,7 +364,7 @@ function Footer() {
                             children: "Email Us for Any Assistance or Concerns."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                            lineNumber: 11,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -374,7 +376,7 @@ function Footer() {
                                     className: "bg-pink-100/50 border-primary/20"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                                    lineNumber: 13,
+                                    lineNumber: 16,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -382,19 +384,19 @@ function Footer() {
                                     children: "→"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                                    lineNumber: 14,
+                                    lineNumber: 17,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                            lineNumber: 12,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                    lineNumber: 10,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -410,45 +412,45 @@ function Footer() {
                                 className: "w-5 h-5"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                                lineNumber: 27,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                            lineNumber: 20,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "https://www.instagram.com/blossoms___nairobi",
+                            href: whatsappHref,
                             target: "_blank",
                             rel: "noopener noreferrer",
-                            "aria-label": "TikTok",
+                            "aria-label": "WhatsApp",
                             className: "text-primary hover:text-primary/70",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                 className: "w-5 h-5",
                                 viewBox: "0 0 24 24",
                                 fill: "currentColor",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                    d: "M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                                    d: "M17.47 14.37c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.41.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.02-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.29 0 1.35.99 2.66 1.12 2.84.14.18 1.95 2.98 4.73 4.18.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.82-1.28.23-.63.23-1.17.16-1.28-.07-.11-.25-.18-.52-.32M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.47 1.33 4.98L2 22l5.2-1.36c1.45.79 3.08 1.2 4.8 1.2 5.5 0 9.96-4.46 9.96-9.96S17.5 2.04 12 2.04m0 18.2c-1.56 0-3.09-.42-4.43-1.21l-.32-.19-3.09.81.82-3.02-.21-.33a8.22 8.22 0 0 1-1.26-4.42c0-4.54 3.69-8.23 8.23-8.23 4.54 0 8.23 3.69 8.23 8.23 0 4.54-3.69 8.23-8.23 8.23"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 40,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                                lineNumber: 36,
+                                lineNumber: 39,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                            lineNumber: 29,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                    lineNumber: 19,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -457,23 +459,23 @@ function Footer() {
                         children: "© 2025, Blossoms created by Fenadis. All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                        lineNumber: 44,
+                        lineNumber: 47,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-                    lineNumber: 43,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-            lineNumber: 8,
+            lineNumber: 11,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/floral-website-clone/components/footer.tsx",
-        lineNumber: 7,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }
@@ -494,6 +496,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website
 ;
 function ProductCard({ product }) {
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    const comingSoonUrl = `/coming-soon?product=${encodeURIComponent(product.name)}&price=${encodeURIComponent(String(product.price))}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-pink-50 rounded-lg overflow-hidden group",
         children: [
@@ -506,7 +509,7 @@ function ProductCard({ product }) {
                         className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 23,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     product.sale && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -514,13 +517,13 @@ function ProductCard({ product }) {
                         children: "Sale"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 29,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                lineNumber: 22,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -531,7 +534,7 @@ function ProductCard({ product }) {
                         children: product.name
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 37,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -545,7 +548,7 @@ function ProductCard({ product }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                                lineNumber: 40,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -556,36 +559,36 @@ function ProductCard({ product }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                                lineNumber: 44,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 38,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                         className: "w-full bg-pink-100 text-primary border border-primary hover:bg-pink-200",
                         variant: "outline",
-                        onClick: ()=>router.push("/coming-soon"),
+                        onClick: ()=>router.push(comingSoonUrl),
                         type: "button",
                         children: "Add to cart"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 46,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                lineNumber: 36,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-        lineNumber: 20,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }

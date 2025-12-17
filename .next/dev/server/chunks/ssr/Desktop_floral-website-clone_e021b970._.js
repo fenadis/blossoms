@@ -89,6 +89,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website
 ;
 function ProductCard({ product }) {
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    const comingSoonUrl = `/coming-soon?product=${encodeURIComponent(product.name)}&price=${encodeURIComponent(String(product.price))}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "bg-pink-50 rounded-lg overflow-hidden group",
         children: [
@@ -101,7 +102,7 @@ function ProductCard({ product }) {
                         className: "w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 23,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     product.sale && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -109,13 +110,13 @@ function ProductCard({ product }) {
                         children: "Sale"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 29,
+                        lineNumber: 33,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                lineNumber: 22,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -126,7 +127,7 @@ function ProductCard({ product }) {
                         children: product.name
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 37,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -140,7 +141,7 @@ function ProductCard({ product }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                                lineNumber: 40,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -151,36 +152,36 @@ function ProductCard({ product }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                                lineNumber: 44,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 38,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                         className: "w-full bg-pink-100 text-primary border border-primary hover:bg-pink-200",
                         variant: "outline",
-                        onClick: ()=>router.push("/coming-soon"),
+                        onClick: ()=>router.push(comingSoonUrl),
                         type: "button",
                         children: "Add to cart"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                        lineNumber: 46,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-                lineNumber: 36,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/floral-website-clone/components/product-card.tsx",
-        lineNumber: 20,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }

@@ -16,6 +16,10 @@ interface Product {
 export function ProductCard({ product }: { product: Product }) {
   const router = useRouter()
 
+  const comingSoonUrl = `/coming-soon?product=${encodeURIComponent(product.name)}&price=${encodeURIComponent(
+    String(product.price),
+  )}`
+
   return (
     <div className="bg-pink-50 rounded-lg overflow-hidden group">
       {/* Product Image */}
@@ -46,7 +50,7 @@ export function ProductCard({ product }: { product: Product }) {
         <Button
           className="w-full bg-pink-100 text-primary border border-primary hover:bg-pink-200"
           variant="outline"
-          onClick={() => router.push("/coming-soon")}
+          onClick={() => router.push(comingSoonUrl)}
           type="button"
         >
           Add to cart

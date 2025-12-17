@@ -5,7 +5,24 @@ import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { Button } from "@/components/ui/button"
 
-export default function ComingSoonPage() {
+export default function ComingSoonPage({
+  searchParams,
+}: {
+  searchParams?: { [key: string]: string | string[] | undefined }
+}) {
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254714666190"
+  const productParam = Array.isArray(searchParams?.product) ? searchParams?.product?.[0] : searchParams?.product
+  const priceParam = Array.isArray(searchParams?.price) ? searchParams?.price?.[0] : searchParams?.price
+
+  const numericPrice = priceParam ? Number(priceParam) : undefined
+  const hasValidPrice = typeof numericPrice === "number" && Number.isFinite(numericPrice)
+
+  const message = productParam
+    ? `Hi, I'd like to order ${productParam}${hasValidPrice ? ` (KSh ${numericPrice.toLocaleString()})` : ""}. Please assist me.`
+    : "Hi, I'd like to place an order. Please assist me."
+
+  const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+
   return (
     <div className="min-h-screen">
       <AnnouncementBar />
@@ -19,7 +36,7 @@ export default function ComingSoonPage() {
           </p>
 
           <div className="mb-10">
-            <p className="text-base text-primary mb-4">Reach us via Instagram or TikTok</p>
+            <p className="text-base text-primary mb-4">Reach us via Instagram or WhatsApp</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Button
                 asChild
@@ -41,11 +58,11 @@ export default function ComingSoonPage() {
                 className="h-14 text-base bg-white text-primary border-2 border-primary hover:bg-pink-100"
               >
                 <a
-                  href="https://www.instagram.com/blossoms___nairobi"
+                  href={whatsappHref}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  TikTok
+                  WhatsApp
                 </a>
               </Button>
             </div>
