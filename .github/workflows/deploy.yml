@@ -33,6 +33,7 @@ jobs:
       - name: Build (Next.js static export)
         env:
           GITHUB_ACTIONS: "true"
+          NEXT_PUBLIC_BASE_PATH: ""
         run: npm run build
 
       - name: Ensure .nojekyll
