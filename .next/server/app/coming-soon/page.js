@@ -1,5 +1,5 @@
 var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/coming-soon/page.js")
-R.c("server/chunks/ssr/Desktop_floral-website-clone_04acfa09._.js")
+R.c("server/chunks/ssr/Desktop_floral-website-clone_4eaa3919._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__57a0c0da._.js")
 R.c("server/chunks/ssr/Desktop_floral-website-clone_86b31b41._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__659a57a2._.js")

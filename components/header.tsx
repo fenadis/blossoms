@@ -1,12 +1,23 @@
 import Link from "next/link"
-import { Search, User, ShoppingCart } from "lucide-react"
+import { Search, User, ShoppingCart, Menu, X } from "lucide-react"
+import { useState } from "react"
 
 export function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+
   return (
     <header className="bg-white border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Left Navigation */}
+          {/* Mobile Menu Button */}
+          <button 
+            className="md:hidden text-primary hover:text-primary/70"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+
+          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/" className="text-primary hover:underline underline-offset-4">
               Home
@@ -39,6 +50,35 @@ export function Header() {
             </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <nav className="md:hidden py-4 border-t border-border">
+            <div className="flex flex-col gap-4">
+              <Link 
+                href="/" 
+                className="text-primary hover:underline underline-offset-4"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Home
+              </Link>
+              <Link 
+                href="/catalog" 
+                className="text-primary hover:underline underline-offset-4"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Catalog
+              </Link>
+              <Link 
+                href="/contact" 
+                className="text-primary hover:underline underline-offset-4"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Contact
+              </Link>
+            </div>
+          </nav>
+        )}
       </div>
     </header>
   )
