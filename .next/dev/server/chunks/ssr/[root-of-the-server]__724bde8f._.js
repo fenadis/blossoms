@@ -78,19 +78,19 @@ const metadata = {
     icons: {
         icon: [
             {
-                url: "/icon-light-32x32.png",
+                url: "/logo blossoms.jpeg",
                 media: "(prefers-color-scheme: light)"
             },
             {
-                url: "/icon-dark-32x32.png",
+                url: "/logo blossoms.jpeg",
                 media: "(prefers-color-scheme: dark)"
             },
             {
-                url: "/icon.svg",
+                url: "/logo blossoms.jpeg",
                 type: "image/svg+xml"
             }
         ],
-        apple: "/apple-icon.png"
+        apple: "/logo blossoms.jpeg"
     }
 };
 function RootLayout({ children }) {
