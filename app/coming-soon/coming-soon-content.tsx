@@ -1,13 +1,14 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
+import { Suspense } from "react"
 import { AnnouncementBar } from "@/components/announcement-bar"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
-export default function ComingSoonContent() {
+function WhatsAppButton() {
   const searchParams = useSearchParams()
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254714666190"
 
@@ -23,6 +24,25 @@ export default function ComingSoonContent() {
 
   const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
+  return (
+    <Button
+      asChild
+      size="lg"
+      variant="outline"
+      className="h-14 text-base bg-white text-primary border-2 border-primary hover:bg-pink-100"
+    >
+      <a
+        href={whatsappHref}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        WhatsApp
+      </a>
+    </Button>
+  )
+}
+
+export default function ComingSoonContent() {
   return (
     <div className="min-h-screen">
       <AnnouncementBar />
@@ -51,20 +71,24 @@ export default function ComingSoonContent() {
                   Instagram
                 </a>
               </Button>
-              <Button
-                asChild
-                size="lg"
-                variant="outline"
-                className="h-14 text-base bg-white text-primary border-2 border-primary hover:bg-pink-100"
-              >
-                <a
-                  href={whatsappHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
+              <Suspense fallback={
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="h-14 text-base bg-white text-primary border-2 border-primary hover:bg-pink-100"
                 >
-                  WhatsApp
-                </a>
-              </Button>
+                  <a
+                    href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254714666190"}?text=${encodeURIComponent("Hi, I'd like to place an order. Please assist me.")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp
+                  </a>
+                </Button>
+              }>
+                <WhatsAppButton />
+              </Suspense>
             </div>
           </div>
 
