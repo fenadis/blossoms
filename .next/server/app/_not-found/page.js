@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/Desktop_floral-website-clone_9ef6f187._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__57a0c0da._.js")
+R.c("server/chunks/ssr/a7370_next_dist_esm_build_templates_app-page_3035d822.js")
+R.c("server/chunks/ssr/[root-of-the-server]__8f7990df._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__dd0f8781._.js")
+R.c("server/chunks/ssr/_9eeb1c39._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__10b07e81._.js")
+R.c("server/chunks/ssr/a7370_next_dist_client_components_d3ae82bd._.js")
+R.c("server/chunks/ssr/a7370_next_dist_client_components_builtin_forbidden_1fb0d207.js")
+R.c("server/chunks/ssr/3d860_floral-website-clone__next-internal_server_app__not-found_page_actions_353f44ca.js")
+R.m(50519)
+module.exports=R.m(50519).exports

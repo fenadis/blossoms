@@ -2,13 +2,14 @@
 
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
+import { Suspense } from "react"
 
 import { AnnouncementBar } from "@/components/announcement-bar"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { Button } from "@/components/ui/button"
 
-export default function ComingSoonPage() {
+function ComingSoonContent() {
   const searchParams = useSearchParams()
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254714666190"
 
@@ -82,5 +83,25 @@ export default function ComingSoonPage() {
 
       <Footer />
     </div>
+  )
+}
+
+export default function ComingSoonPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen">
+        <AnnouncementBar />
+        <Header />
+        <main className="container mx-auto px-4 py-20">
+          <div className="max-w-2xl mx-auto text-center bg-pink-50 rounded-xl border border-pink-100 p-10">
+            <h1 className="font-serif text-5xl md:text-6xl text-primary mb-4 text-balance">Coming Soon</h1>
+            <p className="text-lg text-muted-foreground mb-8">Loading...</p>
+          </div>
+        </main>
+        <Footer />
+      </div>
+    }>
+      <ComingSoonContent />
+    </Suspense>
   )
 }
