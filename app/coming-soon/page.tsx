@@ -1,18 +1,19 @@
+"use client"
+
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 
 import { AnnouncementBar } from "@/components/announcement-bar"
 import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { Button } from "@/components/ui/button"
 
-export default function ComingSoonPage({
-  searchParams,
-}: {
-  searchParams?: { [key: string]: string | string[] | undefined }
-}) {
+export default function ComingSoonPage() {
+  const searchParams = useSearchParams()
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "254714666190"
-  const productParam = Array.isArray(searchParams?.product) ? searchParams?.product?.[0] : searchParams?.product
-  const priceParam = Array.isArray(searchParams?.price) ? searchParams?.price?.[0] : searchParams?.price
+
+  const productParam = searchParams.get("product") || undefined
+  const priceParam = searchParams.get("price") || undefined
 
   const numericPrice = priceParam ? Number(priceParam) : undefined
   const hasValidPrice = typeof numericPrice === "number" && Number.isFinite(numericPrice)
