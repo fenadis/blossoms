@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ProductCard } from "@/components/product-card"
+import { SimpleProductCard } from "@/components/simple-product-card"
 import { AnnouncementBar } from "@/components/announcement-bar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -8,33 +8,26 @@ export default function Home() {
   const featuredProducts = [
     {
       id: 1,
-      name: "Aster flowers",
-      price: 3500.0,
-      originalPrice: 4500.0,
-      image: "/colorful-aster-flowers-bouquet.jpg",
+      name: "Red Roses",
+      image: "/home 11.jpeg",
       sale: true,
     },
     {
       id: 2,
-      name: "baby's breath",
-      price: 1200.0,
-      originalPrice: 2000.0,
-      image: "/yellow-roses-baby-breath-bouquet.jpg",
+      name: "Red Roses",
+      image: "/home 12.jpeg",
       sale: true,
     },
     {
       id: 3,
-      name: "Babybreath bouquet",
-      price: 4500.0,
-      image: "/pink-baby-breath-bouquet-wrapped.jpg",
+      name: "Red Roses",
+      image: "/home 13.jpeg",
       sale: false,
     },
     {
       id: 4,
-      name: "Becca bouquet",
-      price: 3600.0,
-      originalPrice: 4000.0,
-      image: "/orange-roses-bouquet.jpg",
+      name: "Red Roses",
+      image: "/home 14.jpeg",
       sale: true,
     },
   ]
@@ -47,7 +40,7 @@ export default function Home() {
       {/* Hero Section */}
       <section
         className="relative h-[600px] flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: "url('/pink-roses-background-romantic.jpg')" }}
+        style={{ backgroundImage: "url('/home 1.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black/30" />
         <div className="relative z-10 text-center text-white px-4">
@@ -76,7 +69,7 @@ export default function Home() {
           <h2 className="font-serif text-4xl md:text-5xl mb-12 text-center text-balance">Featured products</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
             {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <SimpleProductCard key={product.id} product={product} />
             ))}
           </div>
           <div className="text-center">
