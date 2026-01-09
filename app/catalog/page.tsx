@@ -14,13 +14,13 @@ const categories = [
     image: '/red.jpeg',
     products: [
       { id: 1, name: "White Roses", price: 7500, originalPrice: 8000, image: "/white rose.jpg", sale: true },
-      { id: 2, name: "Rosé Reverie", price: 2000, originalPrice: 3000, image: "/RoseReverie.jpg", sale: true },
-      { id: 3, name: "Red Roses", price: 3000, originalPrice: 7500, image: "/red.jpeg", sale: true },
+      { id: 2, name: "Layed bouquet ", price: 1200, originalPrice: 3000, image: "/pic1.jpg", sale: true },
+      { id: 3, name: "Red Roses", price: 7500, originalPrice: 10500, image: "/red.jpeg", sale: true },
       { id: 4, name: "Fire Ball Bouquet", price: 3500, originalPrice: 4000, image: "/fireball.jpeg", sale: true },
       { id: 5, name: "Becca Bouquet", price: 3600, originalPrice: 5500, image: "/becca.jpeg", sale: true },
-      { id: 6, name: "Baby's Breath", price: 4500, image: "/pink-baby-breath-wrapped.jpg", sale: false },
-      { id: 7, name: "Asters flower", price: 2800, originalPrice: 3500, image: "/Asters flower.jpg", sale: true },
-      { id: 8, name: "Lavender Dream", price: 3200, originalPrice: 3800, image: "/colorful-aster-flowers-bouquet.jpg", sale: true },
+      { id: 6, name: "Baby's Breath", price: 2500, image: "/pic2.jpg", sale: false },
+      { id: 7, name: "Asters flower", price: 2800, originalPrice: 3500, image: "/pic6.jpg", sale: true },
+      { id: 8, name: "Lavender Dream", price: 3200, originalPrice: 3800, image: "/pic5.jpg", sale: true },
     ]
   },
   {
@@ -47,7 +47,7 @@ const categories = [
     products: [
       { id: 17, name: "Rainbow Delight", price: 4500, originalPrice: 5200, image: "/new.jpeg", sale: true },
       { id: 18, name: "mixed red roses and pink roses", price: 4500, image: "/mixed red roses and pink roses.jpeg", sale: false },
-      { id: 19, name: "Tropical Bouquet", price: 4500, originalPrice: 3000, image: "/tropical bouquet.jpeg", sale: true },
+      { id: 19, name: "Tropical Bouquet", price: 2500, originalPrice: 3000, image: "/tropical bouquet.jpeg", sale: true },
       { id: 20, name: "Garden Party", price: 6800, image: "/pin mixed with white .jpeg", sale: false },
       { id: 21, name: "Wildflower Medley", price: 6500, originalPrice: 10000, image: "/pinkish mixed.jpeg", sale: true },
       { id: 22, name: "Autumn Glow", price: 4100, image: "/money 8.jpeg", sale: false },

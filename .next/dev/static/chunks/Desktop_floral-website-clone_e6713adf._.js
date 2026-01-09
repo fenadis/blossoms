@@ -759,17 +759,17 @@ const categories = [
             },
             {
                 id: 2,
-                name: "Rosé Reverie",
-                price: 2000,
+                name: "Layed bouquet ",
+                price: 1200,
                 originalPrice: 3000,
-                image: "/RoseReverie.jpg",
+                image: "/pic1.jpg",
                 sale: true
             },
             {
                 id: 3,
                 name: "Red Roses",
-                price: 3000,
-                originalPrice: 7500,
+                price: 7500,
+                originalPrice: 10500,
                 image: "/red.jpeg",
                 sale: true
             },
@@ -792,8 +792,8 @@ const categories = [
             {
                 id: 6,
                 name: "Baby's Breath",
-                price: 4500,
-                image: "/pink-baby-breath-wrapped.jpg",
+                price: 2500,
+                image: "/pic2.jpg",
                 sale: false
             },
             {
@@ -801,7 +801,7 @@ const categories = [
                 name: "Asters flower",
                 price: 2800,
                 originalPrice: 3500,
-                image: "/Asters flower.jpg",
+                image: "/pic6.jpg",
                 sale: true
             },
             {
@@ -809,7 +809,7 @@ const categories = [
                 name: "Lavender Dream",
                 price: 3200,
                 originalPrice: 3800,
-                image: "/colorful-aster-flowers-bouquet.jpg",
+                image: "/pic5.jpg",
                 sale: true
             }
         ]
@@ -906,7 +906,7 @@ const categories = [
             {
                 id: 19,
                 name: "Tropical Bouquet",
-                price: 4500,
+                price: 2500,
                 originalPrice: 3000,
                 image: "/tropical bouquet.jpeg",
                 sale: true
