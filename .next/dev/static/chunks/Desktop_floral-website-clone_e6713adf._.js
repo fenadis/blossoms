@@ -952,7 +952,7 @@ const categories = [
     },
     {
         id: 'money',
-        name: 'Money Bouquets',
+        name: 'Gift and Money Bouquets',
         description: 'Creative money gift arrangements',
         image: '/money 1.jpeg',
         products: [
@@ -988,10 +988,34 @@ const categories = [
             },
             {
                 id: 30,
-                name: "Prosperity Bouquet",
-                price: 20000,
+                name: "Birthday bouquet with the 🎀 ribbon",
+                price: 2000,
+                originalPrice: 2200,
+                image: "/pic3.jpg",
+                sale: true
+            },
+            {
+                id: 31,
+                name: "Love box",
+                price: 5500,
+                originalPrice: 6000,
+                image: "/pic8.jpg",
+                sale: true
+            },
+            {
+                id: 32,
+                name: "Deep love box",
+                price: 11000,
                 originalPrice: 22000,
-                image: "/money 2.jpeg",
+                image: "/pic7.jpg",
+                sale: true
+            },
+            {
+                id: 33,
+                name: "Birthday bouquet-",
+                price: 3000,
+                originalPrice: 3500,
+                image: "/pic4.jpg",
                 sale: true
             }
         ]
@@ -1006,12 +1030,12 @@ function CatalogPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$components$2f$announcement$2d$bar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnnouncementBar"], {}, void 0, false, {
                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                lineNumber: 79,
+                lineNumber: 82,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$components$2f$header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Header"], {}, void 0, false, {
                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                lineNumber: 80,
+                lineNumber: 83,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1024,7 +1048,7 @@ function CatalogPage() {
                             children: "Our Bouquet Collections"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                            lineNumber: 85,
+                            lineNumber: 88,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1032,18 +1056,18 @@ function CatalogPage() {
                             children: "Choose from our wide variety of beautiful arrangements"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                            lineNumber: 86,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                    lineNumber: 84,
+                    lineNumber: 87,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                lineNumber: 83,
+                lineNumber: 86,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1061,7 +1085,7 @@ function CatalogPage() {
                                         className: "w-full h-48 object-cover"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 102,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1074,12 +1098,12 @@ function CatalogPage() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 108,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 104,
+                                        lineNumber: 107,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1090,7 +1114,7 @@ function CatalogPage() {
                                                 children: category.name
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 113,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1101,24 +1125,24 @@ function CatalogPage() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 111,
+                                                lineNumber: 114,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 112,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, category.id, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                lineNumber: 94,
+                                lineNumber: 97,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                        lineNumber: 92,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,7 +1153,7 @@ function CatalogPage() {
                                 children: currentCategory.name
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                lineNumber: 119,
+                                lineNumber: 122,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1137,13 +1161,13 @@ function CatalogPage() {
                                 children: currentCategory.description
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                lineNumber: 120,
+                                lineNumber: 123,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                        lineNumber: 118,
+                        lineNumber: 121,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1159,7 +1183,7 @@ function CatalogPage() {
                                                 children: "Filter:"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 130,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1169,33 +1193,33 @@ function CatalogPage() {
                                                         children: "Availability"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                        lineNumber: 129,
+                                                        lineNumber: 132,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "In Stock"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 133,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         children: "On Sale"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                        lineNumber: 131,
+                                                        lineNumber: 134,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 128,
+                                                lineNumber: 131,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 129,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1206,38 +1230,38 @@ function CatalogPage() {
                                                     children: "Price"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 139,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                     children: "Low to High"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 140,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                     children: "High to Low"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 141,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                            lineNumber: 135,
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 137,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                lineNumber: 125,
+                                lineNumber: 128,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1248,7 +1272,7 @@ function CatalogPage() {
                                         children: "Sort by:"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 143,
+                                        lineNumber: 146,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1258,34 +1282,34 @@ function CatalogPage() {
                                                 children: "Best selling"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                 children: "Newest"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 146,
+                                                lineNumber: 149,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                 children: "Price: Low to High"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 150,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                 children: "Price: High to Low"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 151,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1296,19 +1320,19 @@ function CatalogPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 153,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                lineNumber: 142,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                        lineNumber: 124,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1317,29 +1341,29 @@ function CatalogPage() {
                                 product: product
                             }, product.id, false, {
                                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                                lineNumber: 157,
+                                lineNumber: 160,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                        lineNumber: 155,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                lineNumber: 91,
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$floral$2d$website$2d$clone$2f$components$2f$footer$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-                lineNumber: 162,
+                lineNumber: 165,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/floral-website-clone/app/catalog/page.tsx",
-        lineNumber: 78,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }

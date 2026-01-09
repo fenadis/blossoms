@@ -57,7 +57,7 @@ const categories = [
   },
   {
     id: 'money',
-    name: 'Money Bouquets',
+    name: 'Gift and Money Bouquets',
     description: 'Creative money gift arrangements',
     image: '/money 1.jpeg',
     products: [
@@ -65,7 +65,10 @@ const categories = [
       { id: 26, name: "Wealth Wreath", price: 15000, originalPrice: 17000, image: "/money 2.jpeg", sale: true },
       { id: 28, name: "Golden Touch", price: 18000, originalPrice: 20000, image: "/money 9.jpeg", sale: true },
       { id: 29, name: "Million Dollar Rose", price: 25000, image: "/money 1.jpeg", sale: false },
-      { id: 30, name: "Prosperity Bouquet", price: 20000, originalPrice: 22000, image: "/money 2.jpeg", sale: true },
+      { id: 30, name: "Birthday bouquet with the 🎀 ribbon", price: 2000, originalPrice: 2200, image: "/pic3.jpg", sale: true },
+      { id: 31, name: "Love box", price: 5500, originalPrice: 6000, image: "/pic8.jpg", sale: true },
+      { id: 32, name: "Deep love box", price: 11000, originalPrice: 22000, image: "/pic7.jpg", sale: true },
+      { id: 33, name: "Birthday bouquet-", price: 3000, originalPrice: 3500, image: "/pic4.jpg", sale: true },
     ]
   }
 ]
