@@ -757,6 +757,22 @@ const categories = [
                 originalPrice: 3800,
                 image: "/pic5.jpg",
                 sale: true
+            },
+            {
+                id: 30,
+                name: "Birthday bouquet with the 🎀 ribbon",
+                price: 2000,
+                originalPrice: 2200,
+                image: "/pic3.jpg",
+                sale: true
+            },
+            {
+                id: 33,
+                name: "Birthday bouquet-",
+                price: 3000,
+                originalPrice: 3500,
+                image: "/pic4.jpg",
+                sale: true
             }
         ]
     },
@@ -893,12 +909,28 @@ const categories = [
                 price: 2500,
                 image: "/mixed with red.jpeg",
                 sale: false
+            },
+            {
+                id: 32,
+                name: "Deep love box",
+                price: 11000,
+                originalPrice: 22000,
+                image: "/pic7.jpg",
+                sale: true
+            },
+            {
+                id: 31,
+                name: "Love box",
+                price: 5500,
+                originalPrice: 6000,
+                image: "/pic8.jpg",
+                sale: true
             }
         ]
     },
     {
         id: 'money',
-        name: 'Gift and Money Bouquets',
+        name: 'Money Bouquets',
         description: 'Creative money gift arrangements',
         image: '/money 1.jpeg',
         products: [
@@ -931,38 +963,6 @@ const categories = [
                 price: 25000,
                 image: "/money 1.jpeg",
                 sale: false
-            },
-            {
-                id: 30,
-                name: "Birthday bouquet with the 🎀 ribbon",
-                price: 2000,
-                originalPrice: 2200,
-                image: "/pic3.jpg",
-                sale: true
-            },
-            {
-                id: 31,
-                name: "Love box",
-                price: 5500,
-                originalPrice: 6000,
-                image: "/pic8.jpg",
-                sale: true
-            },
-            {
-                id: 32,
-                name: "Deep love box",
-                price: 11000,
-                originalPrice: 22000,
-                image: "/pic7.jpg",
-                sale: true
-            },
-            {
-                id: 33,
-                name: "Birthday bouquet-",
-                price: 3000,
-                originalPrice: 3500,
-                image: "/pic4.jpg",
-                sale: true
             }
         ]
     }
